@@ -8,12 +8,12 @@
       "type": "image/png"
     },
     {
-      "src": "pomodoro2.png",
+      "src": "pomodoro192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "pomodoro2.png",
+      "src": "pomodoro512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
