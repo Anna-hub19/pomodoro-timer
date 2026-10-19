@@ -4,11 +4,12 @@ export function CharacterCard({ character, isSelected, onSelect }) {
   return (
     <div
       onClick={() => onSelect(character)}
-      className={`relative cursor-pointer rounded-2xl border p-4 transition-all overflow-hidden flex flex-col justify-between h-48 bg-cover bg-center ${
-        isSelected
+
+      className={`relative cursor-pointer rounded-2xl border p-3 sm:p-4 transition-all overflow-hidden flex flex-col justify-between min-h-44 sm:h-48 bg-cover bg-center ${isSelected
           ? 'border-purple-500 ring-2 ring-purple-500/50 shadow-lg'
           : 'border-slate-800 hover:border-slate-700 opacity-80 hover:opacity-100'
-      }`}
+        }`}
+
       style={{ backgroundImage: `linear-gradient(to top, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.3)), url(${character.image})` }}
     >
       {/* Check de selecionado */}
@@ -19,7 +20,9 @@ export function CharacterCard({ character, isSelected, onSelect }) {
       )}
 
       <div>
-        <h3 className="font-bold text-white">{character.name}</h3>
+        <h3 className="font-bold text-white text-sm sm:text-base break-words">
+          {character.name}
+        </h3>
         <p className="text-xs text-slate-400">{character.anime}</p>
       </div>
 

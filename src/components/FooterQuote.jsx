@@ -2,7 +2,9 @@ import { Sparkles } from 'lucide-react';
 
 export function FooterQuote() {
   return (
-    <footer className="mt-8 flex items-center justify-center gap-2 text-purple-300/80 text-xs md:text-sm bg-purple-950/30 border border-purple-900/20 py-3 px-6 rounded-full w-max mx-auto">
+    <footer
+      className="mt-6 sm:mt-8 flex items-start sm:items-center justify-center gap-2 text-purple-300/80 text-xs sm:text-sm bg-purple-950/30 border border-purple-900/20 py-3 px-4 sm:px-6 rounded-2xl sm:rounded-full w-full max-w-fit mx-auto text-center"
+    >
       <Sparkles size={14} />
       <span>Disciplinar-se é a ponte entre metas e conquistas • Desenvolvido por beatriz.codes</span>
     </footer>

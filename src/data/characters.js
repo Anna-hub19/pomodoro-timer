@@ -2,6 +2,10 @@ import narutoImg from '../assets/naruto.jpg';
 import tanjiroImg from '../assets/tanjiro.jpg';
 import luffyImg from '../assets/luffy.jpg';
 import rengokuImg from '../assets/rengoku.jpg';
+import erenImg from '../assets/eren.png';
+import gojoImg from '../assets/gojo.jpg';
+
+
 
 
 export const CHARACTERS = [
@@ -47,6 +51,28 @@ export const CHARACTERS = [
   bgGradient: 'from-orange-950/60 via-slate-900 to-red-950',
   quote: '“Se estiver se sentindo desmotivado, ou sentindo que não é bom o suficiente, incendeie o seu coração. Enxugue as lágrimas e siga em frente.”',
   author: 'Kyojuro Rengoku',
+  times: { focus: 25, shortBreak: 5, longBreak: 15 },
+},
+{
+  id: 'eren',
+  name: 'Eren Yeager',
+  anime: 'Attack on Titan',
+  tags: ['Determinação', 'Coragem', 'Liberdade'],
+  image: erenImg,
+  bgGradient: 'from-red-950/60 via-slate-900 to-rose-950',
+  quote: '“Se você não lutar, não poderá vencer.”',
+  author: 'Eren Yeager',
+  times: { focus: 25, shortBreak: 5, longBreak: 15 },
+},
+{
+  id: 'gojo',
+  name: 'Satoru Gojo',
+  anime: 'Jujutsu Kaisen',
+  tags: ['Confiança', 'Poder', 'Resiliência'],
+  image: gojoImg,
+  bgGradient: 'from-violet-950/60 via-slate-900 to-indigo-950',
+  quote: '“Não se preocupe, eu sou o mais forte.”',
+  author: 'Satoru Gojo',
   times: { focus: 25, shortBreak: 5, longBreak: 15 },
 }
 ];
