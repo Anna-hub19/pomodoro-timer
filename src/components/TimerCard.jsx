@@ -83,13 +83,8 @@ export function TimerCard({ character, timer }) {
             : 'rounded-2xl sm:rounded-3xl shadow-[0_0_50px_rgba(112,26,220,0.15)]'
         }`}
       style={{
-        background: `
-          linear-gradient(
-            to top,
-            rgba(9, 10, 16, 0.98) 0%,
-            rgba(9, 10, 16, 0.88) 45%,
-            rgba(9, 10, 16, 0.50) 100%
-          ),
+        background: 
+         `linear-gradient(to top, rgba(15, 23, 42, 0.8) 0%, rgba(15, 23, 42, 0) 60%),
           url("${character.image}") center center / cover no-repeat
         `,
       }}

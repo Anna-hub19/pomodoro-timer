@@ -10,7 +10,9 @@ export function CharacterCard({ character, isSelected, onSelect }) {
           : 'border-slate-800 hover:border-slate-700 opacity-80 hover:opacity-100'
         }`}
 
-      style={{ backgroundImage: `linear-gradient(to top, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.3)), url(${character.image})` }}
+     style={{
+  backgroundImage: `linear-gradient(to top, rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.1)), url(${character.image})`
+}}
     >
       {/* Check de selecionado */}
       {isSelected && (
